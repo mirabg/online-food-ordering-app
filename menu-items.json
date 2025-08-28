@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Burger",
+    "description": "Juicy beef patty, lettuce, tomato, cheese, and our special sauce.",
+    "price": 8.99,
+    "image": "images/hamburger.png?auto=format&fit=crop&w=400&q=80",
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "name": "Margherita Pizza",
+    "description": "Fresh mozzarella, tomatoes, basil, and a drizzle of olive oil.",
+    "price": 12.99,
+    "image": "images/pizza.png?auto=format&fit=crop&w=400&q=80",
+    "rating": 4.7
+  },
+  {
+    "id": 3,
+    "name": "Caesar Salad",
+    "description": "Crisp romaine lettuce, parmesan cheese, croutons, and Caesar dressing.",
+    "price": 7.99,
+    "image": "images/salad.png?auto=format&fit=crop&w=400&q=80",
+    "rating": 4.3
+  },
+  {
+    "id": 4,
+    "name": "Spaghetti Carbonara",
+    "description": "Classic Italian pasta with eggs, cheese, pancetta, and pepper.",
+    "price": 10.99,
+    "image": "images/spaghetti.png?auto=format&fit=crop&w=400&q=80",
+    "rating": 4.6
+  },
+  {
+    "id": 5,
+    "name": "Grilled Chicken Sandwich",
+    "description": "Marinated grilled chicken breast with lettuce, tomato, and mayo.",
+    "price": 9.49,
+    "image": "images/chicken-sandwich.png?auto=format&fit=crop&w=400&q=80",
+    "rating": 4.4
+  },
+  {
+    "id": 6,
+    "name": "French Fries",
+    "description": "Crispy golden fries served with ketchup.",
+    "price": 3.99,
+    "image": "images/fries.png?auto=format&fit=crop&w=400&q=80",
+    "rating": 4.2
+  }
+]

@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <title>Login - Online Food Ordering App</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Hamburger favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://cdn-icons-png.flaticon.com/512/3075/3075977.png"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-gray-50 flex items-center justify-center min-h-screen">
@@ -30,6 +36,11 @@
         id="errorMsg"
         class="text-red-600 font-semibold mb-2 text-center hidden"
       ></div>
+      <div class="mb-4 text-center">
+        <span class="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded">
+          Hint: Username is <b>admin</b> and password is <b>admin-password</b>
+        </span>
+      </div>
       <form id="loginForm" autocomplete="off">
         <label for="username" class="block text-gray-700 font-medium mb-1"
           >Username:</label
@@ -83,9 +94,12 @@
         }
 
         if (username === "admin" && password === "admin-password") {
-          alert("Successfully logged in");
+          // Save username to localStorage on successful login
+          localStorage.setItem("username", username);
           loginForm.reset();
           errorMsg.classList.add("hidden");
+          // Redirect to menu-page.html
+          window.location.href = "menu-page.html";
         } else {
           errorMsg.textContent = "Invalid username or password";
           errorMsg.classList.remove("hidden");
